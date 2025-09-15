@@ -25,9 +25,27 @@ To write a Python program to insert elements at REAR END of deque using a collec
 ### PROGRAM  
 
 ```
+import collections
+  
+n1=input()
+n2=input()
+n3=input()
 
+de = collections.deque([n1,n2,n3])
+
+
+
+
+de.append('h')
+de.append('o')
+de.append('n')
+
+print ("The deque after appending at right is : ")
+print (de)
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/7b01db9d-68fb-4540-b2ff-e032ee6b0bc7)
 
 ### RESULT
+Thus, the Python program for inserting elements at the REAR end of a deque using the built-in collections.deque class was successfully implemented. The program accepts user input, appends elements to the rear, and displays the final contents of the deque correctly.
